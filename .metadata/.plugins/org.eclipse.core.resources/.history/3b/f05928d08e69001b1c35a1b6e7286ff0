@@ -1,0 +1,26 @@
+package entities;
+
+import java.util.Date;
+
+public class LogEntry {
+	private String userName;
+	private Date moment;
+	
+	public LogEntry(String userName, Date moment) {
+		this.userName = userName;
+		this.moment = moment;
+	}
+	
+	public String getUserName() {
+		return userName;
+	}
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+	public Date getMoment() {
+		return moment;
+	}
+	public void setMoment(Date moment) {
+		this.moment = moment;
+	}
+}

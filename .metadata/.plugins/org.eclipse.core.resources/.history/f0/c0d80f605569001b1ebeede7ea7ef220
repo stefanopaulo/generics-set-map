@@ -1,0 +1,9 @@
+package services;
+
+import java.util.Collections;
+
+public class CalculationService<T> {
+	public T max(T value) {
+		Collections.max(value); 
+	}
+}
